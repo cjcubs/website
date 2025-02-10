@@ -2,7 +2,10 @@
 @font-face {
     font-family: "Sabon";
     src: local("Sabon.ttf"),
-    url("Saborn.ttf") format("ttf");
+    url("sabon-cdnfonts/Sabon.ttf") format("ttf"),
+    url("sabon-cdnfonts/SabonBold.ttf") format("ttf"),
+    url("sabon-cdnfonts/SabonBoldItalic.ttf") format("ttf"),
+    url("sabon-cdnfonts/SabonItalic.ttf") format("ttf");
   }
   html {
     font-family: "Sabon", sans-serif;
