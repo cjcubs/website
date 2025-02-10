@@ -9,6 +9,27 @@
 	<meta charset="utf-8">
 </head>
 <body>
+	<div id="app"></div>
+    <script src="./index.jsx"></script>
+
+	<script>
+		function prefersDarkMode() {
+		  if (typeof window !== 'undefined') {
+			if (localStorage.getItem('prefersDarkMode')) {
+			  return localStorage.getItem('prefersDarkMode') === 'true'
+			}
+			return (
+			  window.matchMedia &&
+			  window.matchMedia('(prefers-color-scheme: dark)').matches
+			)
+		  }
+		}
+		;(() => {
+		  document.body.classList.toggle('dark-mode', prefersDarkMode())
+		})()
+	  </script>
+	  <script src="./index.jsx"></script>
+
 	<header class="banner">
 		<a class="active" href="../">statement</a>
 		<a href="../fiction">fiction</a>
