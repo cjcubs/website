@@ -166,7 +166,7 @@
     margin-bottom: 0;}
   .rendered-image ~ small
   {
-    display: none;
+    display: flex;
     text-align: right;
   }
   .rendered-image:hover ~ small
