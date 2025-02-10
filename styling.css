@@ -59,7 +59,7 @@
   /* Section styles */
   section p {
     max-width: 40rem;
-    min-width: 30rem;}
+    min-width: auto;}
   main img {
     max-width: 40rem;
     margin-top: 1rem;
