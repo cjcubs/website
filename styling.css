@@ -1,7 +1,8 @@
 /* Base styles */
 @font-face {
     font-family: "Sabon";
-    src: local("Sabon.ttf");
+    src: local("Sabon.ttf"),
+    url("Saborn.ttf") format("ttf");
   }
   html {
     font-family: "Sabon", sans-serif;
