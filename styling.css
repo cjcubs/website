@@ -73,6 +73,7 @@
   /* Header styles */
   header {
     display: flex;
+    flex-wrap: wrap;
     justify-content: left;}
   .title-text {
     background-clip: text;
@@ -81,6 +82,7 @@
     background-position: center;
     background-size: cover;}
   header.banner {
+    flex-wrap: wrap;
     display: flex;
     flex-direction: row;
     align-items: center;
