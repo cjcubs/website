@@ -1,4 +1,4 @@
-class Header extends HTMLElement {
+class cHeader extends HTMLElement {
     connectedCallback() {
         this.innerHTML =
         <header class="banner">
@@ -12,9 +12,9 @@ class Header extends HTMLElement {
 	    </header>
     }
 }
-customElements.define('header', Header);
+customElements.define('c-header', cHeader);
 
-class Footer extends HTMLElement {
+class cFooter extends HTMLElement {
     connectedCallback() {
         this.innerHTML =
         <footer>
@@ -23,7 +23,7 @@ class Footer extends HTMLElement {
     }
 }
 
-customElements.define('footer', footer);
+customElements.define('c-footer', cFooter);
 
 async function resizeMasonryItem(item) {
     let childImage = item.querySelector('img');
