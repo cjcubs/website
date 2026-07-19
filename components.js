@@ -1,6 +1,7 @@
 class cHeader extends HTMLElement {
     connectedCallback() {
         this.innerHTML =
+           `
            <nav>
                 <a href="index.html">statement</a>
                 <a href="fiction.html">fiction</a>
@@ -8,6 +9,7 @@ class cHeader extends HTMLElement {
                 <a href="paintings.html">paintings</a>
                 <a href="notes.html">notes</a>
             </nav>
+            `
     }
 }
 customElements.define('c-header', cHeader);
@@ -15,9 +17,11 @@ customElements.define('c-header', cHeader);
 class cFooter extends HTMLElement {
     connectedCallback() {
         this.innerHTML =
+        `
         <footer>
 		    <p>Outside my ramblings I'd like to thank you for showing the care and follow-through to actually visit something I've worked on. I can never thank you enough.</p>
 	    </footer>
+        `
     }
 }
 
