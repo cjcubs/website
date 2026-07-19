@@ -1,7 +1,6 @@
 class cHeader extends HTMLElement {
     connectedCallback() {
         this.innerHTML =
-        // <header class="banner">
            <nav>
                 <a href="index.html">statement</a>
                 <a href="fiction.html">fiction</a>
@@ -9,7 +8,6 @@ class cHeader extends HTMLElement {
                 <a href="paintings.html">paintings</a>
                 <a href="notes.html">notes</a>
             </nav>
-	    // </header>
     }
 }
 customElements.define('c-header', cHeader);
