@@ -3,11 +3,11 @@ class cHeader extends HTMLElement {
         this.innerHTML =
            `
            <header class= "banner">
-                <a href="index.html">statement</a>
-                <a href="fiction.html">fiction</a>
-                <a href="essays.html">essays</a>
-                <a href="paintings.html">paintings</a>
-                <a href="notes.html">notes</a>
+                <a href="/index.html">statement</a>
+                <a href="/fiction.html">fiction</a>
+                <a href="/essays.html">essays</a>
+                <a href="/paintings.html">paintings</a>
+                <a href="/notes.html">notes</a>
             </header>
             `
     }
