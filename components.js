@@ -3,10 +3,10 @@ class cHeader extends HTMLElement {
         this.innerHTML =
            `
            <nav>
-                <a href="index.html">statement</a> |
-                <a href="fiction.html">fiction</a> |
-                <a href="essays.html">essays</a> |
-                <a href="paintings.html">paintings</a> |
+                <a href="index.html">statement</a>
+                <a href="fiction.html">fiction</a>
+                <a href="essays.html">essays</a>
+                <a href="paintings.html">paintings</a>
                 <a href="notes.html">notes</a>
             </nav>
             `
